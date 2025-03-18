@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xFE8637">
   <layouts>
     <layout name="npnxnanbsnfns00001100101" font="Lato" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
     <layout name="pxabnsnfns00001100101" font="Lato" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
@@ -1168,7 +1168,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0xFE8637" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1312,7 +1312,7 @@
           <color name="toggle_track_on">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0xFE8637" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1460,6 +1460,7 @@
       <string id="acc_modern_video_playback_speed">playback speed</string>
       <string id="acc_modern_video_volume">video volume</string>
       <string id="closed_captions">Captions</string>
+      <string id="comma_key">Comma</string>
       <string id="continueresponsive">Continue</string>
       <string id="next">NEXT</string>
       <string id="prev">PREV</string>
@@ -1491,6 +1492,8 @@
       <string id="outline">Menu</string>
       <string id="transcript">Notes</string>
       <string id="disabled_orientation">Please rotate your device</string>
+      <string id="period_key">Period</string>
+      <string id="question_mark_key">Question mark</string>
       <string id="resources">Resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
@@ -1563,6 +1566,7 @@
             <slidelink slideid="_player.5kF94BcSZDH.6FvHgCHuip1" displaytext="Environment" expand="false" type="slide" />
             <slidelink slideid="_player.5kF94BcSZDH.6Q50m2o3qv3" displaytext="Impacts" expand="false" type="slide" />
             <slidelink slideid="_player.5kF94BcSZDH.6m4cG4vbC8Q" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5kF94BcSZDH.6ggJcIi85wi" displaytext="Energy" expand="false" type="slide" />
             <slidelink slideid="_player.5kF94BcSZDH.5aX7w0kbEbu" displaytext="References " expand="false" type="slide" />
             <slidelink slideid="_player.5kF94BcSZDH.5rVUf1HJY6H" displaytext="Thank you" expand="false" type="slide" />
           </links>

@@ -2,12 +2,18 @@
 /* All comments go between the front slash and asterisk symbols */
 	
 body {
-	background-color: #B58EC1;   /* background color */
-	color: #453F3F;          /* text color for the entire page */
+	background: #B58EC1;   
+	color: #453F3F;          
 }
 
 h1, h2 { 
-	text-align:center;     /* centers h1 and h2 content */
+	text-align:center;     
+	font-family: Sans-serif;
+}
+.parent{
+	Display:flex;
+	justify-content: center;
+	align-items:center;
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */

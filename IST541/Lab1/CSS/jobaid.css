@@ -2,8 +2,8 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color: #5B9CAA;   /* background color */
-	color: #444;          /* text color for the entire page */
+	background-color: #A675B8;   /* background color */
+	color: #453F3F;          /* text color for the entire page */
 }
 
 h1, h2 { 
@@ -12,7 +12,7 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width: 85%;
+	width: 80%;
 	margin: 0 auto;    /* centers wrapper */
 }
 
@@ -20,7 +20,7 @@ h1, h2 {
 .stepTitle{
 	padding:10px;
 	text-align:left;
-	background-color:#F7B857;
+	background-color:#32489C;
 	font-weight: bold;
 	font-size: 150%;
  }

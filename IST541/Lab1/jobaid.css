@@ -1,0 +1,61 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+	
+body {
+	background: #B58EC1;   
+	color: #453F3F;          
+}
+
+h1, h2 { 
+	text-align:center;     
+	font-family: Sans-serif;
+}
+.parent{
+	Display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto;    /* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:20px;
+	text-align:left;
+	background-color:#32489C;
+	font-weight: bold;
+	font-size: 200%;
+ }
+
+.stepContent{ 
+	background-color: aquamarine;
+	padding:7px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+	line-height:145%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+}
+
+.stepImage img {
+    width:100%;
+    height:auto;
+}
+
+strong {
+  font-weight: 800;
+}

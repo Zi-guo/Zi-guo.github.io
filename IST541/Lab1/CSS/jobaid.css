@@ -13,12 +13,12 @@ h1, h2 {
 .parent{
 	Display:flex;
 	justify-content: center;
-	align-items:center;
+	align-items: center;
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;    /* centers wrapper */
 }
 

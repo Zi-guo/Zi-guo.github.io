@@ -1,8 +1,8 @@
+@charset "UTF-8"
 /* CSS Document */
-/* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color: #A675B8;   /* background color */
+	background-color: #AC9E6C;   /* background color */
 	color: #453F3F;          /* text color for the entire page */
 }
 
@@ -12,7 +12,7 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;    /* centers wrapper */
 }
 
@@ -22,11 +22,11 @@ h1, h2 {
 	text-align:left;
 	background-color:#32489C;
 	font-weight: bold;
-	font-size: 150%;
+	font-size: 200%;
  }
 
 .stepContent{ 
-	background-color: white;
+	background-color: aquamarine;
 	padding:7px;
 	display: flex;
 	flex-wrap:wrap;

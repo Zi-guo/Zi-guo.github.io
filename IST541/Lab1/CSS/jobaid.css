@@ -10,23 +10,21 @@ h1, h2 {
 	text-align:center;     
 	font-family: Sans-serif;
 }
-.parent{
-	Display:flex;
-	justify-content: center;
-	align-items: center;
-}
+/*{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}*/
 
-/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
 	width: 85%;
 	margin: 0 auto;    /* centers wrapper */
 }
 
-/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
 	padding:20px;
 	text-align:left;
-	background-color:#32489C;
+	background-color:#507DAD;
 	font-weight: bold;
 	font-size: 200%;
  }
@@ -42,12 +40,12 @@ h1, h2 {
 .stepDescription {
 	width:55%;
 	padding:5px;
-	line-height:145%;
+	line-height:150%;
 }
 
 .stepImage {
 	width:40%;	
-	padding:5px;
+	padding:10px;
 	text-align: center;
 }
 
@@ -58,4 +56,7 @@ h1, h2 {
 
 strong {
   font-weight: 800;
+}
+body { 
+outline: 6px solid magenta; 
 }

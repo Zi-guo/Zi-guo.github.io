@@ -6,6 +6,16 @@ body {
 	color: #453F3F;          
 }
 
+.warning {
+		background-color: #B91417;
+		padding:10px;
+		border-radius:20px;
+	}
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
 h1, h2 { 
 	text-align:center;     
 	font-family: Sans-serif;

@@ -1,0 +1,72 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+	
+body {
+	background: #B58EC1;   
+	color: #453F3F;          
+}
+
+.warning {
+		background-color: #B91417;
+		padding:10px;
+		border-radius:20px;
+	}
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
+h1, h2 { 
+	text-align:center;     
+	font-family: Sans-serif;
+}
+/*{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}*/
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;    /* centers wrapper */
+}
+
+.stepTitle{
+	padding:20px;
+	text-align:left;
+	background-color:#507DAD;
+	font-weight: bold;
+	font-size: 200%;
+ }
+
+.stepContent{ 
+	background-color: aquamarine;
+	padding:7px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+	line-height:150%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:10px;
+	text-align: center;
+}
+
+.stepImage img {
+    width:100%;
+    height:auto;
+}
+
+strong {
+  font-weight: 800;
+}
+body { 
+outline: 6px solid magenta; 
+}

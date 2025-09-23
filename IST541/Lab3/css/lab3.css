@@ -7,15 +7,15 @@ body {
 }
 
 a {
-	padding: 15px;
-margin: 3px;
+	padding: 30px;
+margin: 5px;
 	font-size: 150%;
 	background-color:  silver; 
 	color:  royalblue; 
 }
 a:hover {
 	font-size:200%;
-	background-color: whitesmoke; 
+	background-color: navajowhite; 
 	color: cornflowerblue; 
 }
 

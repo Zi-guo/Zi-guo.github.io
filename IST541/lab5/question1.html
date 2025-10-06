@@ -12,7 +12,7 @@
 <h1>What is one food that Sea Otters like to eat?</h1>
 <h3 id="hint">Hint: Hover over the image below to find out!</h3>
 <img onmouseenter="showAnswer()" id="otter"  src="img/otter.jpg"   />
-<img onmouseleave="hideAnswer()" id="otter_eating" src="img/otter_eating urchin.jpg" />
+<img onmouseleave="hideAnswer()" id="otter_eating" src="img/otter_eating.jpg" />
 <div id="answer"></div>  
 		<!-- This is a placeholder to display the answer-->
  
@@ -21,12 +21,12 @@
 <script>
 function showAnswer() {
 	   $("#otter").hide();
-	   $("#otter_eating urchin").show();
+	   $("#otter_eating").show();
 	   $("#answer").html("<h2>They love eating Sea urchins!</h2>");
 	}
 function hideAnswer() {
 	   $("#otter").show();
-	   $("#otter_eating urchin").hide();
+	   $("#otter_eating").hide();
 	   $("#answer").html("");  
 	}
 </script>

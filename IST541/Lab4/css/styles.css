@@ -6,7 +6,13 @@ background-image: url("../img/wheels.jpg");   /* background image*/
 	font-size: 14px;
 	font-family:Verdana, Geneva, sans-serif;
 }
-
+{
+padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  silver; 
+	color:  black; 
+}
 #wrapper {
 	width:1000px;
 	margin:0 auto;         /* centers wrapper */

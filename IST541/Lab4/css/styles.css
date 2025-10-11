@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
+	text-align: center;
 background-image: url("../img/wheels.jpg");   /* background image*/
 	color: #444;          /* text color for the entire document */
 	font-size: 14px;
@@ -12,11 +13,11 @@ margin: 3px;
 	font-size: 125%;
 	background-color:  silver; 
 	color:  black; 
-	
+}
 a:hover {
 	font-size:200%;
 	background-color: navajowhite; 
-	color: cornflowerblue; 
+	color: black; 
 }
 #wrapper {
 	width:1000px;

@@ -21,8 +21,8 @@
 	<div id="wrapper">
 <h1>What we think meditation look like Vs. What it actually is.</h1>
 <h3 id="hint">Hint: Hover over the image below to find out!</h3>
-<img onmouseenter="showAnswer()" id="Meditation"  src="img/meditation.jpg"   />
-<img onmouseleave="hideAnswer()" id="thoughts" src="img/thoughts.jpg" />
+<img onmouseenter="showAnswer()" id="Meditation"  src="img/meditation.jpg"/>
+<img onmouseleave="hideAnswer()" id="thoughts" src="img/thoughts.jpg"/>
 <div id="answer"></div>  
 		<!-- This is a placeholder to display the answer-->
  
@@ -30,12 +30,12 @@
 
 <script>
 function showAnswer() {
-	   $("#Thoughts").hide();
+	   $("#meditation").hide();
 	   $("#thoughts").show();
 	   $("#answer").html("<h2> Here is the trick, the thoughts don't stop, we just learn to not to pay attention to it.</h2>");
 	}
 function hideAnswer() {
-	   $("#thoughts").show();
+	   $("#meditation").show();
 	   $("#thoughts").hide();
 	   $("#answer").html("");  
 	}

@@ -1,11 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-{
-	box-sizing: border-box
-}
-
 body {
+	box-sizing: border-box
 	text-align: center;
 	background-color: darkgray;
 	color: #black;          /* text color for the entire document */
@@ -14,7 +11,7 @@ body {
 }
 
 .warning {
-		background-color: #yellow;
+		background-color: #4A3E13;
 		padding:10px;
 		border-radius:10px;
 	}

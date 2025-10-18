@@ -3,7 +3,7 @@
 
 body {
 	text-align: center;
-	background-color: darkgray;
+	background-color: aqua;
 	background-image: url("../img/ocean.jpg");
 	color: #black;          /* text color for the entire document */
 	font-size: 14px;
@@ -23,7 +23,6 @@ body {
 h1, h2 { 
 	text-align:center;     
 	font-family: Sans-serif;
-	margin: 0 0 var(--space-6);
     letter-spacing: .2px;
 }
 

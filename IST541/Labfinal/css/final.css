@@ -3,7 +3,26 @@
 
 body {
 	text-align: center;
-	background-color: darkgray;  
+	background-color: darkgray;
+background-image: url("../img/waterlily.jpg");   /* background image*/
+	color: #444;          /* text color for the entire document */
+	font-size: 14px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.warning {
+		background-color: #EB0A0E;
+		padding:10px;
+		border-radius:20px;
+	}
+.material-icons {
+	color:black; 
+	font-size:3em;
+}
+
+h1, h2 { 
+	text-align:center;     
+	font-family: Sans-serif;
 }
 
 a {
@@ -15,6 +34,24 @@ margin: 5px;
 }
 a:hover {
 	font-size:200%;
-	background-color: navajowhite; 
-	color: cornflowerblue; 
+	background-color: silver; 
+	color: royalblue; 
+}
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #Meditation {
+border: black 5px solid;
+}
+ 
+ #thoughts {
+display: none; /* hides content */
+border: black 5px solid;
+}
+.choices {
+cursor: pointer;
 }

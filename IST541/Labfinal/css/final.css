@@ -2,7 +2,6 @@
 /* CSS Document */
 
 body {
-	box-sizing:border-box;
 	text-align: center;
 	background-color: darkgray;
 	background-image: url("../img/ocean.jpg");
@@ -22,11 +21,9 @@ body {
 }
 
 h1, h2 { 
-	text-align:center; text-justify:     
+	text-align:center;     
 	font-family: Sans-serif;
 	margin: 0 0 var(--space-6);
-    line-height: 1.2;
-    font-weight: 700;
     letter-spacing: .2px;
 }
 

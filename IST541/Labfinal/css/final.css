@@ -29,13 +29,13 @@ a {
 	padding: 20px;
     margin: 10px;
 	font-size: 150%;
-	background-color:  silver; 
-	color:  royalblue; 
+	background-color:  #2d545e; 
+	color:  #12343b; 
 }
 a:hover {
-	font-size:200%;
-	background-color: silver; 
-	color: royalblue; 
+	font-size:100%;
+	background-color: #2d545e; 
+	color: #12343b; 
 }
 
 #wrapper {

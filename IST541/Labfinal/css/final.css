@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	box-sizing: border-box
+	box-sizing:border-box;
 	text-align: center;
 	background-color: darkgray;
 	background-image: url("../img/ocean.jpg");
@@ -24,6 +24,10 @@ body {
 h1, h2 { 
 	text-align:center; text-justify:     
 	font-family: Sans-serif;
+	margin: 0 0 var(--space-6);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: .2px;
 }
 
 a {
@@ -42,7 +46,7 @@ a:hover {
 #wrapper {
 width: 900px;
 margin: 18px auto 6px;
-text-align: center;
+width: 100%; text-align: center;
 }
 
  #Meditation {

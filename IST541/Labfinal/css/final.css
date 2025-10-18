@@ -5,13 +5,13 @@ body {
 	text-align: center;
 	background-color: darkgray;
 background-image: url("../img/waterlily.jpg");   /* background image*/
-	color: #444;          /* text color for the entire document */
+	color: #black;          /* text color for the entire document */
 	font-size: 14px;
 	font-family:Verdana, Geneva, sans-serif;
 }
 
 .warning {
-		background-color: #EB0A0E;
+		background-color: #yellow;
 		padding:10px;
 		border-radius:20px;
 	}

@@ -9,6 +9,18 @@ body {
 	font-family:Verdana, Geneva, sans-serif;
 }
 
+#container{
+justify-content: center;
+width: 100%;
+mid-width: 250px;
+margin: auto;
+height: 100%	
+}
+	
+.flex-wrap{
+    flex-wrap: wrap	
+}	
+
 .warning {
 		background-color: #4A3E13;
 		padding:10px;

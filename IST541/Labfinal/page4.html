@@ -4,27 +4,22 @@
 <meta charset="utf-8">
 <title>page4</title>
 </head>
+
 <link href="css/final.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <body>
-	<a href="index.html"> Home </a>
-	<a href="page2.html"> History </a>
-	<a href="page3.html"> How it works </a>
-	<a href="page4.html"> What to expect </a>
-    <a href="page5.html"> Quiz </a>
-	<a href="page6.html"> References </a>
-	<br><br>
-	
-	<div id="wrapper">
-<h1>What we think meditation look like Vs. What it actually is.</h1>
-<h3 id="hint">Hint: Hover over the image below to find out!</h3>
-<img onmouseenter="showAnswer()" id="Meditation"  src="img/meditation.jpg"/>
-<img onmouseleave="hideAnswer()" id="thoughts" src="img/thoughts.jpg"/>
-<div id="answer"></div>  
-		<!-- This is a placeholder to display the answer-->
- 
-</div> <!-- closing  “wrapper” -->
+<a href="index.html"> Home </a> <a href="page2.html"> History </a> <a href="page3.html"> How it works </a> <a href="page4.html"> What to expect </a> <a href="page5.html"> Quiz </a> <a href="page6.html"> References </a> <br>
+<br>
+<div id="wrapper">
+  <h1>What we think meditation look like Vs. What it actually is.</h1>
+  <h3 id="hint">Hint: Hover over the image below to find out!</h3>
+  <img onmouseenter="showAnswer()" id="Meditation"  src="img/meditation.jpg"/> <img onmouseleave="hideAnswer()" id="thoughts" src="img/thoughts.jpg"/>
+  <div id="answer"></div>
+  <!-- This is a placeholder to display the answer--> 
+  
+</div>
+<!-- closing  “wrapper” --> 
 
 <script>
 function showAnswer() {
@@ -38,6 +33,5 @@ function hideAnswer() {
 	   $("#answer").html("");  
 	}
 </script>
-	
 </body>
 </html>

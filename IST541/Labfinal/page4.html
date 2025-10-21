@@ -40,23 +40,24 @@ function hideAnswer() {
 	}
 </script>
 
-	<div id="wrapper">
+	<div id="wrapper2">
   <h1>Just because throughts come up, it doesnt represent who you are.</h1>
-  <h3 id="hint">Hint: Hover over the image below to find out!</h3>
+  <h3 id="note">Hint: Hover over the image below to find out!</h3>
   <img onmouseenter="showAnswer()" id="flashlight"  src="img/cartoon-flashlight.jpg"/> <img onmouseleave="hideAnswer()" id="garbage" src="img/burning-garbage.jpg"/>
-  <div id="answer"></div>
+  <div id="image"></div>
 	
 	<script>
 function showAnswer() {
 	   $("#cartoon-flashlight").hide();
 	   $("#burning-garbage").show();
-	   $("#answer").html("<h2> Consider meditation as a flashlight.</h2>");
+	   $("#image").html("<h2> Consider meditation as a flashlight.</h2>");
 	}
 function hideAnswer() {
 	   $("#cartoon-flashlight").show();
 	   $("#burning-garbage").hide();
-	   $("#answer").html("");  
+	   $("#image").html("");  
 	}
 </script>
+		
 </body>
 </html>

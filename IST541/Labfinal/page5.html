@@ -2,43 +2,44 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>page5</title>
+<title>page4</title>
 </head>
+
 <link href="css/final.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <body>
-	<a href="index.html"> Home </a>
-	<a href="page2.html"> History </a>
-	<a href="page3.html"> How it works </a>
+    <a href="index.html"> Home </a> 
+	<a href="page2.html"> History </a> 
+	<a href="page3.html"> How it works </a> 
 	<a href="page4.html"> What to expect </a>
-    <a href="page5.html"> Quiz </a>
-	<a href="page6.html"> References </a>
+	<a href="page5.html"> What to expect Pt2 </a>
+	<a href="page6.html"> Quiz </a> 
+	<a href="page7.html"> References </a> 
 	<br><br>
 	
-	<section id="step1" class="step">
-      <div class="stepTitle"></div>
+<div id="wrapper">
+  <h1>Your thoughts are like a flashlight.</h1>
+  <h3 id="hint">Hint: Hover over the image below to find out!</h3>
+  <img onmouseenter="showAnswer()" id="cartoon-flashlight"  src="img/cartoon-flashlight.jpg"/> 
+  <img onmouseleave="hideAnswer()" id="burning-garbage" src="img/burning-garbage.jpg"/>
+  <div id="answer"></div>
+  <!-- This is a placeholder to display the answer--> 
+  
+</div>
+<!-- closing  “wrapper” --> 
 
-      <div class="stepContent"> 
-        <div class="stepDescription">
-          <h2><p>Now that you have learned some aspects of meditation, take a moment and try it with the following video: 
-			  <ul style="list-style-type: square;">
-			  <li>What comes up?</li> 
-			  <li>What is keeping you from focusing on the breath</li> 
-			  <li>How does it feel afterwards?</li> </ul>
-            As Jack kornfield would say "this is meditation practice not meditation perfect." This will take time to see the effect.
-			  </p> </h2>
-</div><!-- /.stepContent -->
-		  
-    </section>
-	<video  controls  width="500">
-<source src="video/Meditation.mp4" type="video/mp4" />
-<source src="video/meditation.ogg" type="video/ogg" />
-       <track id="entrack" label="English subtitles" kind="captions" src="video/captions.vtt" srclang="en" default>
-HTML5 Video not supported
-</video>
-
-
+<script>
+function showAnswer() {
+	   $("#cartoon-flashlight").hide();
+	   $("#burning-garbage").show();
+	   $("#answer").html("<h2> Just because you see bad thought, doesnt mean you are a bad person.</h2>");
+	}
+function hideAnswer() {
+	   $("#cartoon-flashlight").show();
+	   $("#burning-garbage").hide();
+	   $("#answer").html("");  
+	}
+</script>	
 </body>
 </html>

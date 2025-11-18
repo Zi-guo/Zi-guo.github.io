@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns00011100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x7FD13B">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns00011100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x4F81BD">
   <layouts>
     <layout name="npnxnanbsnfns00011100101" font="Lato" controllayout="npnxnanbsnfns00011100101" colorscheme="pxabnsnfns00011100101" string_table="pxabnsnfns00011100101" />
     <layout name="pxabnsnfns00011100101" font="Lato" controllayout="pxabnsnfns00011100101" colorscheme="pxabnsnfns00011100101" string_table="pxabnsnfns00011100101" />
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Problem Posing Education for instructors&#xA;&#xA;&#xA;" />
+              <option name="title_text" value="Problem Base Learning" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1170,7 +1170,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x7FD13B" alpha="100" stop="0" />
+                <color rgb="0x4F81BD" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1314,7 +1314,7 @@
           <color name="toggle_track_on">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x7FD13B" alpha="100" stop="0" />
+                <color rgb="0x4F81BD" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1419,7 +1419,7 @@
       <string id="acc_modern_video_play">play video</string>
       <string id="acc_modern_video_playback_speed">playback speed</string>
       <string id="acc_modern_video_settings">video settings</string>
-      <string id="acc_modern_video_transcript">Transcripts</string>
+      <string id="acc_modern_video_transcript">Open</string>
       <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
       <string id="acc_next">Next (Ctrl+Alt+Period)</string>
@@ -1585,52 +1585,45 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6BO5Wm2zXhP" displaytext="Intro Scene" expand="true" type="slide">
+        <slidelink slideid="_player.63YzwwHQQbK" displaytext="Intro Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6BO5Wm2zXhP.68lYqWjefdT" displaytext="Welcome to Problem Posing Education for instructors   Ziyang Guo" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6icvLy7sTX0" displaytext="Learning Objectives" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5mVDozTCH1i" displaytext="Video introduction" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6l00wjXPX71" displaytext="Core Concepts" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6mSDQoUGN20" displaytext="What is banking education?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6g3WowWaQMU" displaytext="Why Problem Posing Education?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6LgkWZvwqBN" displaytext="Research example 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6o5Romtd4rp" displaytext="Research example 1 pt2" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6pzTeC49oaD" displaytext="Research example 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6GvDYhKSliZ" displaytext="Research example 2 pt 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6LvmX4Fj4V1" displaytext="Lesson Examples" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6LTezFzjQfv" displaytext="Example 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5eMbgr5lOOd" displaytext="Example 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.66XIHlGMLS3" displaytext="Preparing for PPE Con’t" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5xQY6UiHt8m" displaytext="Preparing for PPE" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5jZ3ITbzPBZ" displaytext="Knowledge Check page" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5ueTXguq2kE" displaytext="Core Concepts a" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6JaN4ejEo1M" displaytext="What is banking education? a" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.66YTbjfxnYH" displaytext="Why Problem Posing Education? a" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6hbWEzYC7c9" displaytext="Research example 1a" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6nQ2jCniVK0" displaytext="Research example 1 pt2b " expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6nurULqTkPW" displaytext="Research example 2a" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5Vv2nrSuc8r" displaytext="Research example 2b" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5cZ3FurV4QS" displaytext="Preparing for PPE A" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6OoKML35Lp6" displaytext="Preparing for PPE Con’t A" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6i4Y5sqeQ7d" displaytext="Lesson Examples A" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5rxX1CFRz4B" displaytext="Example 2 A" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5vJnGR93hjA" displaytext="Example 3 A" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.688yxV1qv3f" displaytext="In problem-posing education, it’s okay for instructors to not have all the answers." expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6lFikZ5k4xO" displaytext="Which of the following are NOT strategies supports student-driven learning?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5ybcZWcHrVn" displaytext="Which of the following best describes the instructor’s role in a problem-posing classroom?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5iKBUlYCLvt" displaytext="In a student-driven classroom, the teacher is no longer responsible for setting learning goals." expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6MYFWE8hDGK" displaytext="Which of these is an example of a student-driven activity?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5UhiOpYPCe4" displaytext="Which of the following are key features of the problem-posing model?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.61TOis9I2DU" displaytext="Reflection" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5tzcfMC9jVY" displaytext="Review" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6WhCLeT2VSK" displaytext="References" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5ZhH4aM74IN" displaytext="Matching the following" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6fSBwNhKlmu" displaytext="A teacher delivers a lecture while students take notes silently and prepare to answer recall-based questions at the end. Which model of education does this most reflect?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5UhbL3fjdlE" displaytext="A math teacher asks students to create their own word problems based on their everyday lives. This aligns with which of the following educational approaches?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6Y8rCv6cfEj" displaytext="Integrated STEM should be adapted to fit different subject areas and student populations, rather than using a one-size-fits-all approach." expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.6KrIKF6LLEd" displaytext="The banking model encourages students to question and challenge what they are learning." expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5brWI9Qz9RC" displaytext="Which of the following is not a characteristic of problem-posing education?" expand="false" type="slide" />
-            <slidelink slideid="_player.6BO5Wm2zXhP.5iaayI9UZuK" displaytext="Which of the following best describes the banking model of education?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6XpcUlx8CHQ" displaytext="Intro Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6cys4H7sRf3" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6DOa5162TVd" displaytext="Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6aYU298HY6R" displaytext="Why PBL?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6dZuMe87ToZ" displaytext="Research example 1" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.65s02S2XXqE" displaytext="Research example 2" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6m0ggjY3USd" displaytext="Scenario Questioning" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.66dYeUkMMOR" displaytext="The PBL answer" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5tyQvzcTQxM" displaytext="The PBL answer pt2" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.645YdYt8OdX" displaytext="The PBL Answer pt 3" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5ylOVGqCijh" displaytext="Targeted Example Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5tmTEwr4AiK" displaytext="Knowledge check" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6dE41cxLB3N" displaytext="What is the main purpose of Problem Based learning" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5m1picH2tFA" displaytext="Problem Based Learning is a student-centered learning method." expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5bZ35ePYz6d" displaytext="Which of the following best describes the instructor’s role in PBL?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5lBnl0AWjUR" displaytext="What is an example of flexible knowledge in Problem Based learning?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6RdyZobyMql" displaytext="Which scenario best represents a real and rich context in Problem-Based Learning?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6TCPvKduHUx" displaytext="PBL in STEM education always requires expensive equipment and laboratory tools." expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6XtIOBDHKKd" displaytext="When analyzing a popular health trend, what should students focus on?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.66ho57yr17d" displaytext="Class assignment on testing Air Purifier&#xD;What is the best way to test if an air purifier design works?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.67B9Kv62gOu" displaytext="Teaching Chemical Storage Safety  Which of the following is most important when organizing chemical storage in a lab?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6a8rid5Um6Y" displaytext="Mr. Lee designs a STEM lesson where his students build a small water-filtering system to solve a real pollution problem. The task connects science, engineering, and data analysis. Question: Which PBL principle is Mr. Lee demonstrating most clearly?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6CWbezHWdMv" displaytext="Scenario: Your class is challenged to design a plan that helps your school reduce electricity use by 20% in six months.  Which set of actions best demonstrates how to apply inquiry, collaboration, and reflection?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5iwHMIDdp2F" displaytext="Arrange the following in the correct order for a typical PBL cycle:" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6OQHQ5lEOXy" displaytext="What does &amp;quot;student ownership&amp;quot; look like in PBL?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5waKRMjEofX" displaytext="Why is reflection important in PBL?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6NPs1pHNr46" displaytext="PBL encourages students to draw connections between multiple subjects." expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5tbwXJ2mvIs" displaytext="Which of the following aligns with a strong PBL assessment strategy?" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6nT1bwCZGZo" displaytext="Why PBL?A" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6iCiSc21RiX" displaytext="Research example 1A" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5jJMa44yyWm" displaytext="Research example 2A" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5ssPUGgpenP" displaytext="The PBL answerA" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6362SPHmFfD" displaytext="The PBL answer pt2A" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6OU6xltNIVp" displaytext="The PBL Answer pt 3A" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.5zjIA8Jt8jV" displaytext="Targeted Example Questions A" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.60ydLK8pV9t" displaytext="Review" expand="false" type="slide" />
+            <slidelink slideid="_player.63YzwwHQQbK.6NzLbCWNKgo" displaytext="References" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>

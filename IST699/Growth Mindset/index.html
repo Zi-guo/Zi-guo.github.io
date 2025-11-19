@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 x64 - http://www.articulate.com  -->
-  <!-- version: 3.99.34516.0 -->
+  <!-- version: 3.105.35604.0 -->
   <title>Growth Mindset</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -28,7 +28,7 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#282828',
-      features: 'DropInBase,JsApiBasics,MathExpressions,MorphTransition,MultipleQuizTracking,NewCaptionsFormat,PlayerSizeOption,TextEntryCharacterLimit',
+      features: 'DropInBase,MultipleQuizTracking,PlayerSizeOption',
       themeName: 'unified',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
@@ -36,8 +36,8 @@
       publishSource: 'storyline',
       aid: 'aid|5180e375-2910-4151-9bfd-4a07bc8ef7c0',
       cid: 'f984dd29-4d10-41ce-ac65-9efe8625ef6b',
-      playerVersion: '3.99.34516.0',
-      publishTimestamp: '2025-05-12T22:54:31.6299188Z',
+      playerVersion: '3.105.35604.0',
+      publishTimestamp: '2025-11-19T19:04:10.9569753Z',
       maxIosVideoElements: 10,
       connectionSettings: { message: 'You%20are%20offline.%20Trying%20to%20reconnect...', useDarkTheme: false, mode: 'disabled' },
       hasFeature: function(feature) {
@@ -82,12 +82,13 @@
   </script>
 
   <script>
-    if (window.globals.hasFeature('NewAiCourseTranslation')) {
+    if (window.globals.hasFeature('Localization')) {
       
       
     }
   </script>
 
+  
   
   <script>window.THREE = { };</script>
   
@@ -434,7 +435,7 @@
     function disableKeys() {
       if (DS.views && DS.views.nsStack && DS.views.nsStack.length === 1) {
         DS.views.nsStack[0].tabReachable = false
-        DS.views.nsStack[0].updateTabIndex(true, true);
+        DS.views.nsStack[0].updateTabIndex(true);
       }
 
       accStyle.innerHTML = '.acc-shadow-dom { display: none; }';
